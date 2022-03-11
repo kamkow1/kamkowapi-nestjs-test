@@ -17,7 +17,6 @@ import { ArticleModule } from './article/article.module';
       database: process.env.POSTGRES_DATABASE,
 
       autoLoadEntities: true,
-      synchronize: true,
     }),
     ArticleModule,
   ],
